@@ -20,7 +20,6 @@
   height: 100px;
 }
 
-
 /*Overall Properties including Row*/
 
 /*.row div {
@@ -297,14 +296,30 @@ p{
   box-shadow: none;
   border-radius: 0;
   padding: 0;
+  color: white;
 }
 
+/*Control Font Styles*/
 input[type="text"].form-control::-webkit-input-placeholder{
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.25);
 }
 
 textarea[id="message"].form-control::-webkit-input-placeholder{
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.25);
+}
+
+/*Remove Auto Styles*/
+input[type="text"].form-control, textarea{
+  outline: none;
+}
+
+textarea[id="message"].form-control, textarea{
+  outline: none;
+}
+
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 1000px #758390 inset !important;
+  color: white;
 }
 
 .row .form-group{

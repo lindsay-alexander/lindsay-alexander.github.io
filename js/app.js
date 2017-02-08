@@ -92,6 +92,16 @@ $(document).ready(function () {
     sr.reveal('.newyork', {reset:true, duration: 500, delay: 700, scale: 0.9, mobile: true});
     sr.reveal('.school', {reset:true, duration: 500, delay: 400, scale: 0.9, mobile: true});
     sr.reveal('.work', {reset:true, duration: 500, delay: 400, scale: 0.9, mobile: true});
+    sr.reveal('.btn-circle', {reset:true, duration: 500, delay: 400, scale: 2, mobile: true});
+
+})
+
+
+$(document).ready(function () {
+
+    $('.navbar-collapse a').on('click',function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
 })
 
