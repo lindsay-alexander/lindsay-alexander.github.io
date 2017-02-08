@@ -9,7 +9,7 @@
     font-family: 'Karla', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #222;
-    transition: background 0.25s ease;    
+    transition: background 0.15s ease;    
  }
 /*Test*/
 #educationLink, #experienceLink, #skillsetLink, #contactLink{
@@ -36,7 +36,7 @@
 }
 
 #contact{
-  padding: 10% 0;
+  padding: 15% 0;
 }
 
 #page-content-wrapper{
@@ -169,6 +169,8 @@ p{
 /*Home*/
 .home{
     background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*Homepage Button Styles*/
@@ -210,7 +212,7 @@ p{
     color: black;
 }
 
-.icons{
+.sr-icons{
     height: 50px;
 }
 
